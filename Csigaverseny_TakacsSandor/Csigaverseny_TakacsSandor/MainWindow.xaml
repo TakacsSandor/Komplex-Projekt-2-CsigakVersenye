@@ -7,10 +7,10 @@
         mc:Ignorable="d"
         Title="Csigaverseny" Height="770" Width="1050">
     <Grid Name="racsos">
-        <Button x:Name="start" Content="Start" FontSize="18px" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="140" Height="30"/>
-        <Button x:Name="ujFutam" Content="Új futam" FontSize="18px" HorizontalAlignment="Left" Margin="155,10,0,0" VerticalAlignment="Top" Width="140" Height="30"/>
-        <Button x:Name="ujBajnoksag" Content="Új bajnokság" FontSize="18px" HorizontalAlignment="Left" Margin="300,10,0,0" VerticalAlignment="Top" Width="140" Height="30"/>
-        <Label x:Name="label" Content="A bajnokság állása:" HorizontalAlignment="Left" Margin="10,590,0,0" VerticalAlignment="Top" FontSize="22px"/>
+        <Button x:Name="startGomb" Content="Start" FontSize="18px" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="140" Height="30"/>
+        <Button x:Name="ujFutamGomb" Content="Új futam" FontSize="18px" HorizontalAlignment="Left" Margin="155,10,0,0" VerticalAlignment="Top" Width="140" Height="30"/>
+        <Button x:Name="ujBajnoksagGomb" Content="Új bajnokság" FontSize="18px" HorizontalAlignment="Left" Margin="300,10,0,0" VerticalAlignment="Top" Width="140" Height="30"/>
+        <Label x:Name="bajnoksagAllasa" Content="A bajnokság állása:" HorizontalAlignment="Left" Margin="10,590,0,0" VerticalAlignment="Top" FontSize="22px"/>
         <Label FontFamily="Copperplate Gothic Bold" FontSize="100" x:Name="rajt" Content="Rajt" HorizontalAlignment="Left" Margin="82,245,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
             <Label.RenderTransform>
                 <TransformGroup>
@@ -42,6 +42,6 @@
         <Rectangle Fill="Black" VerticalAlignment="Top" HorizontalAlignment="Left" Height="550" Width="10px" Margin="160,60,0,160" Stroke="Black"></Rectangle>
         <Rectangle Name="csigaPalya1" HorizontalAlignment="Left" Height="150" Margin="10,60,0,0" Stroke="Black"
                VerticalAlignment="Top" Width="1000" StrokeThickness="0"/>
-
+       
     </Grid>
 </Window>
