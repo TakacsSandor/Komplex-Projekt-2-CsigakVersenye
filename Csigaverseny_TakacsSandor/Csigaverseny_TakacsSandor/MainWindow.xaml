@@ -7,9 +7,9 @@
         mc:Ignorable="d"
         Title="Csigaverseny" Height="770" Width="1050">
     <Grid Name="racsos">
-        <Button x:Name="startGomb" Content="Start" FontSize="18px" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="140" Height="30"/>
-        <Button x:Name="ujFutamGomb" Content="Új futam" FontSize="18px" HorizontalAlignment="Left" Margin="155,10,0,0" VerticalAlignment="Top" Width="140" Height="30"/>
-        <Button x:Name="ujBajnoksagGomb" Content="Új bajnokság" FontSize="18px" HorizontalAlignment="Left" Margin="300,10,0,0" VerticalAlignment="Top" Width="140" Height="30"/>
+        <Button x:Name="startGomb" Content="Start" FontSize="18px" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="140" Height="30" Click="startGomb_Click"/>
+        <Button x:Name="ujFutamGomb" Content="Új futam" FontSize="18px" HorizontalAlignment="Left" Margin="155,10,0,0" VerticalAlignment="Top" Width="140" Height="30" Click="ujFutamGomb_Click"/>
+        <Button x:Name="ujBajnoksagGomb" Content="Új bajnokság" FontSize="18px" HorizontalAlignment="Left" Margin="300,10,0,0" VerticalAlignment="Top" Width="140" Height="30" Click="ujBajnoksagGomb_Click"/>
         <Label x:Name="bajnoksagAllasa" Content="A bajnokság állása:" HorizontalAlignment="Left" Margin="10,590,0,0" VerticalAlignment="Top" FontSize="22px"/>
         <Label FontFamily="Copperplate Gothic Bold" FontSize="100" x:Name="rajt" Content="Rajt" HorizontalAlignment="Left" Margin="82,245,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
             <Label.RenderTransform>
@@ -46,5 +46,6 @@
                VerticalAlignment="Top" Width="1000" StrokeThickness="0"/>
         <Rectangle Name="csigaPalya3" HorizontalAlignment="Left" Height="180" Margin="10,390,0,0" Stroke="Black"
                VerticalAlignment="Top" Width="1000" StrokeThickness="0"/>
+        
     </Grid>
 </Window>
