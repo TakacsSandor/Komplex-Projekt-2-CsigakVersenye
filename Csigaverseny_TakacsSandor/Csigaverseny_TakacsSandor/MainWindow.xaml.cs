@@ -69,7 +69,7 @@ namespace Csigaverseny_TakacsSandor
                 csiga3.Margin = new Thickness(X3, 420, 0, 0);
 
             }
-            Szinezes();
+            
         }
         
         private void Visszallitas()
@@ -119,14 +119,14 @@ namespace Csigaverseny_TakacsSandor
 
 
         }
-        private void Szinezes(object sender, EventArgs e)
+      /*  private void Szinezes(object sender, EventArgs e)
         {
             if(csiga1.Margin.Left >= 850)
             {
                 csigaPalya1.Fill = new SolidColorBrush(System.Windows.Media.Colors.AliceBlue);
            
-            }
+            }*/
         }
     }
-    }
+    
 
