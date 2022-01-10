@@ -73,6 +73,12 @@ namespace Csigaverseny_TakacsSandor
 
         }
 
+        private void Visszallitas()
+        {
+            csiga1.Margin = new Thickness(10, 60, 0, 0);
+            csiga2.Margin = new Thickness(10, 240, 0, 0);
+            csiga3.Margin = new Thickness(10, 420, 0, 0);
+        }
         private void startGomb_Click(object sender, RoutedEventArgs e)
         {
             idozito.Start();
@@ -80,7 +86,8 @@ namespace Csigaverseny_TakacsSandor
 
         private void ujFutamGomb_Click(object sender, RoutedEventArgs e)
         {
-
+            Visszallitas();
+            idozito.Stop();
         }
 
         private void ujBajnoksagGomb_Click(object sender, RoutedEventArgs e)
