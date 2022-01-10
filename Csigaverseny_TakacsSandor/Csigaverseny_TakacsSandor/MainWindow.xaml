@@ -42,6 +42,9 @@
         <Rectangle Fill="Black" VerticalAlignment="Top" HorizontalAlignment="Left" Height="550" Width="10px" Margin="160,60,0,160" Stroke="Black"></Rectangle>
         <Rectangle Name="csigaPalya1" HorizontalAlignment="Left" Height="150" Margin="10,60,0,0" Stroke="Black"
                VerticalAlignment="Top" Width="1000" StrokeThickness="0"/>
-       
+        <Rectangle Name="csigaPalya2" HorizontalAlignment="Left" Height="180" Margin="10,210,0,0" Stroke="Black"
+               VerticalAlignment="Top" Width="1000" StrokeThickness="0"/>
+        <Rectangle Name="csigaPalya3" HorizontalAlignment="Left" Height="180" Margin="10,390,0,0" Stroke="Black"
+               VerticalAlignment="Top" Width="1000" StrokeThickness="0"/>
     </Grid>
 </Window>
