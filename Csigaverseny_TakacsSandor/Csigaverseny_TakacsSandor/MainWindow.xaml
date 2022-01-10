@@ -5,8 +5,43 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Csigaverseny_TakacsSandor"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="Csigaverseny" Height="770" Width="1050">
+    <Grid Name="racsos">
+        <Button x:Name="start" Content="Start" FontSize="18px" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="140" Height="30"/>
+        <Button x:Name="ujFutam" Content="Új futam" FontSize="18px" HorizontalAlignment="Left" Margin="155,10,0,0" VerticalAlignment="Top" Width="140" Height="30"/>
+        <Button x:Name="ujBajnoksag" Content="Új bajnokság" FontSize="18px" HorizontalAlignment="Left" Margin="300,10,0,0" VerticalAlignment="Top" Width="140" Height="30"/>
+        <Label x:Name="label" Content="A bajnokság állása:" HorizontalAlignment="Left" Margin="10,590,0,0" VerticalAlignment="Top" FontSize="22px"/>
+        <Label FontFamily="Copperplate Gothic Bold" FontSize="100" x:Name="rajt" Content="Rajt" HorizontalAlignment="Left" Margin="82,245,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label FontFamily="Copperplate Gothic Bold" FontSize="100" x:Name="cel" Content="Cél" HorizontalAlignment="Left" Margin="847,236,-28,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="89.764"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Image x:Name="csiga1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,60,0,0" Height="150" Width="151" Source="pack://application:,,,/csiga1.PNG" Stretch="Fill" RenderTransformOrigin="0.477,1.03"/>
+        <Image x:Name="csiga2" HorizontalAlignment="Left" Margin="10,240,0,0" VerticalAlignment="Top" Height="150" Width="151" Source="pack://application:,,,/csiga2..PNG" Stretch="Fill" RenderTransformOrigin="0.477,1.03"/>
+        <Image x:Name="csiga3" HorizontalAlignment="Left"  Margin="10,420,0,0" VerticalAlignment="Top" Height="150" Width="151" Source="pack://application:,,,/csiga3.PNG" Stretch="Fill" RenderTransformOrigin="0.477,1.03"/>
+        <Rectangle Fill="Black" VerticalAlignment="Top" HorizontalAlignment="Left" Height="3" Width="1000" Margin="10,210,30,0" Stroke="Black"></Rectangle>
+        <Rectangle Fill="Black" VerticalAlignment="Top" HorizontalAlignment="Left" Height="3" Width="1000" Margin="10,390,30,0" Stroke="Black"></Rectangle>
+        <Rectangle Fill="Black" VerticalAlignment="Top" HorizontalAlignment="Left" Height="3" Width="1000" Margin="10,570,24,0" Stroke="Black"></Rectangle>
+        <Rectangle Name="celVonal" Fill="Black" HorizontalAlignment="Left" Height="550" Margin="1000,60,0,160"
+               Stroke="Black" VerticalAlignment="Top" Width="10"></Rectangle>
+        <Rectangle Fill="Black" VerticalAlignment="Top" HorizontalAlignment="Left" Height="550" Width="10px" Margin="160,60,0,160" Stroke="Black"></Rectangle>
+        <Rectangle Name="csigaPalya1" HorizontalAlignment="Left" Height="150" Margin="10,60,0,0" Stroke="Black"
+               VerticalAlignment="Top" Width="1000" StrokeThickness="0"/>
+
     </Grid>
 </Window>
